@@ -10,4 +10,9 @@ public final class Basics {
     return x & (x - 1);
   }
 
+
+  public static boolean isPowerOf2(final int x){
+    return turnOffRightmostBits(x) == 0;
+  }
+
 }
